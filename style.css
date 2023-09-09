@@ -1,0 +1,43 @@
+body{
+    background-color: #000;
+}
+
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fffb00;
+    border-radius: 50%;
+    box-shadow: -24vw -44vh 2px 2px #fffb00,38vw -4vh 0px 0px #fffb00,-20vw -48vh 1px 2px #fffb00,-39vw 38vh 3px 1px #fffb00,-42vw -11vh 0px 3px #fffb00,12vw 15vh 3px 3px #fffb00,42vw 6vh 3px 2px #fffb00,-8vw 9vh 0px 2px #fffb00,34vw -38vh 1px 0px #fffb00,-17vw 45vh 3px 1px #fffb00,22vw -36vh 3px 2px #fffb00,-42vw 1vh 1px 0px #fffb00;
+    animation: zoom 30s alternate infinite;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+#logo {
+    position: absolute;
+    width: 8%;
+    left: 3%;
+    top: 3%;
+}
+
+#CS{
+    position: absolute;
+    top: 20%;
+    width: 70%;
+     left:15%;
+}
